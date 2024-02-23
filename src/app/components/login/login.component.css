@@ -1,0 +1,19 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.btn-limo {
+  background: #fff;
+  box-shadow: 5px -5px 5px 0px #0f0;
+  color: #24584c;
+  border-radius: 25px;
+  padding: 0 16px 0 16px;
+  height: 36px;
+  border: 1px solid #24584c;
+}

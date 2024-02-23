@@ -1,0 +1,39 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>Update User</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form
+      class="example-form"
+      [formGroup]="registerForm"
+      (ngSubmit)="updateUser()"
+    >
+      <mat-form-field class="example-full-width">
+        <mat-label>Role</mat-label>
+        <mat-select formControlName="role">
+          <mat-option value="">Select Value</mat-option>
+          <mat-option *ngFor="let item of roleList" [value]="item.code">
+            {{ item.name }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-checkbox class="example-margin" formControlName="isactive"
+        >Is Active</mat-checkbox
+      >
+
+      <!-- //divider here -->
+      <mat-divider></mat-divider>
+      <mat-card-actions
+        [ngStyle]="{ display: 'flex', 'justify-content': 'space-evenly' }"
+      >
+        <button type="submit" mat-raised-button color="primary">Update</button>
+        <button mat-dialog-close mat-raised-button color="accent">Close</button>
+      </mat-card-actions>
+    </form>
+  </mat-card-content>
+
+  <mat-card-footer>
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+  </mat-card-footer>
+</mat-card>

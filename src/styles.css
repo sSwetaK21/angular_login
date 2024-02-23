@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #1e2126;
+}
+.dm-mono-regular {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-black {
+  background-color: #1e2126;
+  background-image: url("https://masternode24.de/assets/img/line-bg.png");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-emerald {
+  background-color: #14121c !important;
+}
+
+.color-limo {
+  color: #0f0;
+}
+
+.btn-limo {
+  background: #fff;
+  box-shadow: 5px -5px 5px 0px #0f0;
+}

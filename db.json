@@ -1,0 +1,81 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "admin@1234",
+      "email": "admin@gmail.com",
+      "gender": "female",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "shwetakodam",
+      "name": "shweta",
+      "password": "shweta@21Kodam",
+      "email": "shweta@gmail.com",
+      "gender": "female",
+      "role": "Developer",
+      "isactive": true
+    },
+    {
+      "id": "nehakodam",
+      "name": "neha",
+      "password": "neha@21Kodam",
+      "email": "neha@gmail.com",
+      "gender": "female",
+      "role": "HR",
+      "isactive": false
+    },
+    {
+      "id": "atharvaa",
+      "name": "atharvaa",
+      "password": "atharvaa@21Kodam",
+      "email": "atharvaa@gmail.com",
+      "gender": "male",
+      "role": "Developer",
+      "isactive": true
+    },
+    {
+      "id": "pawankumar",
+      "name": "pawan",
+      "password": "Pawan@24kumar",
+      "email": "pk@gmail.com",
+      "gender": "male",
+      "role": "Developer",
+      "isactive": true
+    },
+    {
+      "id": "shwetaaa",
+      "name": "shwey",
+      "password": "Shweta@21Kodam",
+      "email": "shwetya@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    },
+    {
+      "id": "sneha",
+      "name": "sneha",
+      "password": "sneha@21kodam",
+      "email": "sneha@gmail.com",
+      "gender": "female",
+      "role": "",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "Developer",
+      "name": "Developer"
+    },
+    {
+      "code": "Trainee",
+      "name": "Trainee"
+    },
+    {
+      "code": "HR",
+      "name": "HR"
+    }
+  ]
+}
