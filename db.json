@@ -16,7 +16,7 @@
       "email": "shweta@gmail.com",
       "gender": "female",
       "role": "Developer",
-      "isactive": true
+      "isactive": false
     },
     {
       "id": "nehakodam",
