@@ -25,7 +25,7 @@
       "email": "neha@gmail.com",
       "gender": "female",
       "role": "HR",
-      "isactive": false
+      "isactive": true
     },
     {
       "id": "atharvaa",
@@ -51,7 +51,7 @@
       "password": "Shweta@21Kodam",
       "email": "shwetya@gmail.com",
       "gender": "male",
-      "role": "",
+      "role": "Trainee",
       "isactive": false
     },
     {
@@ -60,22 +60,25 @@
       "password": "sneha@21kodam",
       "email": "sneha@gmail.com",
       "gender": "female",
-      "role": "",
+      "role": "Trainee",
       "isactive": true
     }
   ],
   "role": [
     {
       "code": "Developer",
-      "name": "Developer"
+      "name": "Developer",
+      "id": "002a"
     },
     {
       "code": "Trainee",
-      "name": "Trainee"
+      "name": "Trainee",
+      "id": "6998"
     },
     {
       "code": "HR",
-      "name": "HR"
+      "name": "HR",
+      "id": "9b6b"
     }
   ]
 }

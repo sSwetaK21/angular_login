@@ -1,0 +1,20 @@
+.typewriter {
+  position: relative;
+  margin: 0;
+  height: 50px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.effect {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.err {
+  text-align: center;
+}

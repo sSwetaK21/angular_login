@@ -1,5 +1,12 @@
 table {
   width: 100%;
+  background-color: #14121c;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #0f0;
+  margin: 10px 0px;
+  font-size: 20px;
+  color: white;
 }
 
 .mat-mdc-form-field {
@@ -10,4 +17,31 @@ table {
 td,
 th {
   width: 25%;
+  color: #0f0;
+}
+th {
+  border-bottom: 1px solid #0f0;
+}
+.color-limo {
+  background-color: #0f0 !important;
+}
+
+.bg-blackish {
+  background-color: #14121c;
+  border-radius: 5px;
+  border: 1px solid #0f0;
+  color: #0f0;
+}
+.mat-mdc-select-arrow {
+  width: 10px;
+  height: 5px;
+  position: relative;
+  color: #0f0 !important;
+}
+.mat-mdc-paginator .mat-mdc-select-value {
+  /* font-size: var(--mat-paginator-select-trigger-text-size); */
+  color: #0f0;
+}
+.mat-mdc-select-arrow svg {
+  fill: #0f0 !important;
 }
